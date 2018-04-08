@@ -10,6 +10,9 @@ namespace Hearts
     {
         static void Main(string[] args)
         {
+            GamePlay newGame = new GamePlay();
+            Deck deck = new Deck();
+            newGame.PlayTheGame(deck);
         }
     }
 }
